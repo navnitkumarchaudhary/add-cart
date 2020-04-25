@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/add-cart/static/css/main.aac03674.chunk.css",
+    "main.js": "/add-cart/static/js/main.08d4ab98.chunk.js",
+    "main.js.map": "/add-cart/static/js/main.08d4ab98.chunk.js.map",
+    "runtime-main.js": "/add-cart/static/js/runtime-main.126ec4d2.js",
+    "runtime-main.js.map": "/add-cart/static/js/runtime-main.126ec4d2.js.map",
+    "static/css/2.f1d36a8f.chunk.css": "/add-cart/static/css/2.f1d36a8f.chunk.css",
+    "static/js/2.7be72705.chunk.js": "/add-cart/static/js/2.7be72705.chunk.js",
+    "static/js/2.7be72705.chunk.js.map": "/add-cart/static/js/2.7be72705.chunk.js.map",
+    "index.html": "/add-cart/index.html",
+    "precache-manifest.4338e8b46c0511a0f9b242c90112d552.js": "/add-cart/precache-manifest.4338e8b46c0511a0f9b242c90112d552.js",
+    "service-worker.js": "/add-cart/service-worker.js",
+    "static/css/2.f1d36a8f.chunk.css.map": "/add-cart/static/css/2.f1d36a8f.chunk.css.map",
+    "static/css/main.aac03674.chunk.css.map": "/add-cart/static/css/main.aac03674.chunk.css.map",
+    "static/js/2.7be72705.chunk.js.LICENSE.txt": "/add-cart/static/js/2.7be72705.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/add-cart/static/media/background.3c9a1ce5.svg",
+    "static/media/star.png": "/add-cart/static/media/star.51c4dba6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.126ec4d2.js",
+    "static/css/2.f1d36a8f.chunk.css",
+    "static/js/2.7be72705.chunk.js",
+    "static/css/main.aac03674.chunk.css",
+    "static/js/main.08d4ab98.chunk.js"
+  ]
+}
