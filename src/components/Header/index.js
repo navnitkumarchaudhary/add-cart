@@ -7,7 +7,13 @@ import { useSelector } from 'react-redux';
 
 const Header = () => {
 
-  const cartSize = useSelector(state => state.cart.length);
+  const cartSize = useSelector((state) => {
+    let itemCount = 0;
+    for (let i = 0; i < state.cart.length; i++) {
+      itemCount += state.cart[i].amount;
+    }
+    return itemCount;
+  });
 
   return (
     <Container>

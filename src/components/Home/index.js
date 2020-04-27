@@ -48,19 +48,14 @@ const Home = () => {
   const handleAddToCartProdcuts = (product) => {
     if (!addToCartStatus[product.id]) {
       dispatch(CartActions.addToCart(product));
-      toast("you have sucessfully added an item to cart.",
-        {
-          className: 'foo-bar',
-          type: toast.TYPE.SUCCESS
-        });
-
     } else {
-      toast("This item has already been added in cart.",
-        {
-          className: 'foo-bar',
-          type: toast.TYPE.ERROR
-        });
+      dispatch(CartActions.updateAmount(product.id, addToCartStatus[product.id] + 1));
     }
+    toast("you have sucessfully added an item to cart.",
+      {
+        className: 'foo-bar',
+        type: toast.TYPE.SUCCESS
+      });
   };
 
   // to search products
@@ -134,7 +129,7 @@ const Home = () => {
                 <MdShoppingCart size={16} color="#FFF" />
                 {amount[product.id] || 0}
               </div>
-              <span>{amount[product.id] ? (<span style={{ color: "#aaa" }}>Added to cart</span>) : (<span>Add to cart</span>)}</span>
+              <span>Add to cart</span>
             </button>
           </li>
         ))}
